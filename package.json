@@ -1,35 +1,48 @@
 {
+  "homepage": "https://myportfolio.rishavkumar.tech/",
   "name": "spaceportfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "delete-gh-pages": "git branch -d gh-pages 2>$null && git push origin --delete gh-pages 2>$null",
+    "deploy": "npm run build && npx gh-pages -b gh-pages -d .next",
     "build": "next build",
+    "dev": "next dev",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build"
+
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
-    "next": "13.5.6",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-icons": "^4.11.0"
+    "mailgun-js": "^0.22.0",
+    "next": "^13.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "sharp": "^0.33.1"
   },
   "devDependencies": {
     "@react-three/drei": "^9.88.4",
     "@react-three/fiber": "^8.15.4",
     "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/react": "^18.2.46",
     "@types/react-dom": "^18",
     "autoprefixer": "^10",
     "eslint": "^8",
     "eslint-config-next": "13.5.6",
     "framer-motion": "^10.16.4",
+    "gh-pages": "^6.1.1",
     "maath": "^0.10.4",
     "postcss": "^8",
     "react-intersection-observer": "^9.5.2",
-    "tailwindcss": "^3",
+    "tailwindcss": "^3.4.0",
     "three": "^0.157.0",
     "typescript": "^5"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

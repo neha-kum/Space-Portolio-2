@@ -11,7 +11,9 @@ export default function Home() {
         <Hero />
         <Skills />
         <Encryption />
+        <a href="Portfolio.html">
         <Projects />
+        </a>
       </div>
     </main>
   );

@@ -20,11 +20,14 @@ const Footer = () => {
                     <div className="font-bold text-[16px]">Community</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <FaYoutube />
+                        <a href="https://www.youtube.com/channel/UCjhSBFmC-sPsS9ihDDaEPBQ">
                         <span className="text-[15px] ml-[6px]">Youtube</span>    
+                        </a>
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Github</span>    
+                        <a href="https://github.com/codewithrishav">
+                        <span className="text-[15px] ml-[6px]">Github</span></a>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxDiscordLogo />
@@ -35,7 +38,8 @@ const Footer = () => {
                     <div className="font-bold text-[16px]">Social Media</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Instagram</span>    
+                        <a href="https://www.instagram.com/rishi_rishav__kumar_9979/">
+                        <span className="text-[15px] ml-[6px]">Instagram</span>    </a>
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
@@ -43,7 +47,8 @@ const Footer = () => {
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Linkedin</span>    
+                        <a href="https://www.linkedin.com/in/codewithrishav/">
+                        <span className="text-[15px] ml-[6px]">Linkedin</span> </a>   
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
@@ -58,13 +63,13 @@ const Footer = () => {
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
-                        <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]">rishav098kumar@gmail.com</span>    
                     </p>
                 </div>
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
-                &copy; WebChain Dev 2023 Inc. All rights reserved
+                &copy; Rishav Kumar 2023 Inc. All rights reserved
             </div>
         </div>
     </div>

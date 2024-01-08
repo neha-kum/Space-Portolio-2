@@ -19,7 +19,7 @@ const Navbar = () => {
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            WebChain Dev
+            Rishav Kumar
           </span>
         </a>
 
@@ -33,6 +33,9 @@ const Navbar = () => {
             </a>
             <a href="#projects" className="cursor-pointer">
               Projects
+            </a>
+            <a href="https://rishavportfoliosite.netlify.app/#contact" className="cursor-pointer">
+              Contact me
             </a>
           </div>
         </div>
