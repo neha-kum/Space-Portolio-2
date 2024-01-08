@@ -5,13 +5,13 @@
   "private": true,
   "scripts": {
     "delete-gh-pages": "git branch -d gh-pages 2>$null && git push origin --delete gh-pages 2>$null",
-    "deploy": "npm run build && npx gh-pages -b gh-pages -d .next",
+    "clean-cache": "del /Q .next\\cache\\webpack\\server-production\\0.pack",
+    "deploy": "npm run build && gh-pages -b gh-pages -d build",
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build"
-
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
@@ -36,7 +36,7 @@
     "maath": "^0.10.4",
     "postcss": "^8",
     "react-intersection-observer": "^9.5.2",
-    "tailwindcss": "^3.4.0",
+    "tailwindcss": "^3.4.1",
     "three": "^0.157.0",
     "typescript": "^5"
   },
